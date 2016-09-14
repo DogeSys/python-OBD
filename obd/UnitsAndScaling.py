@@ -43,7 +43,6 @@ Unit.define("lph = liter / hour = LPH = liters_per_hour")
 Unit.define("ppm = count / 1000000 = PPM = parts_per_million")
 
 
-
 class UAS():
     """
     Class for representing a Unit and Scale conversion
@@ -77,8 +76,8 @@ UAS_IDS = {
     0x05 : UAS(False, 0.0000305,  Unit.count),
     0x06 : UAS(False, 0.000305,   Unit.count),
     0x07 : UAS(False, 0.25,       Unit.rpm),
-    0x08 : UAS(False, 0.01,       Unit.kph),
-    0x09 : UAS(False, 1,          Unit.kph),
+    0x08 : UAS(False, 0.01,       Unit.mph),
+    0x09 : UAS(False, 1,          Unit.mph),
     0x0A : UAS(False, 0.122,      Unit.millivolt),
     0x0B : UAS(False, 0.001,      Unit.volt),
     0x0C : UAS(False, 0.01,       Unit.volt),
